@@ -24,8 +24,8 @@
     label = [[ZFAutoLabel alloc]
                                  initWithFrame:CGRectMake(0, 100, 300, 400)];
     label.backgroundColor = [UIColor yellowColor];
-    label.linesSpacing = 20;
-    label.characterSpacing = 10;
+    label.linesSpacing = 20; // 行间距
+    label.characterSpacing = 10; // 字间距
     label.font = [UIFont boldSystemFontOfSize:15];
     label.text = @"我只是作为一个demo里的语句才会出现的，我这里不表达任何意思，什么都不想表达，真的不想表达";
     [self.view addSubview:label];
