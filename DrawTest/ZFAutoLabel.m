@@ -58,6 +58,9 @@ NSRange maxRangeFromString(NSString * string, NSRange range) {
 {
     self = [super initWithFrame:frame];
     if (self) {
+        
+        self.attributedString = nil;
+        self.tempAttributedString = nil;
 
         [self setCharacterSpacing:FONT_SIZE_SPACING
                       withDisplay:NO];
@@ -194,7 +197,7 @@ NSRange maxRangeFromString(NSString * string, NSRange range) {
     
     
     //通过temp设置其他属性
-    [self.tempAttributedString enumerateAttributesInRange:NSMakeRange(0, self.text.length) options:NSAttributedStringEnumerationReverse usingBlock:
+    [self.tempAttributedString enumerateAttributesInRange:NSMakeRange(0, self.tempAttributedString.string.length) options:NSAttributedStringEnumerationReverse usingBlock:
      ^(NSDictionary *attributes, NSRange range, BOOL *stop) {
          
          if ([[attributes allKeys] count] > 0) {
@@ -224,7 +227,7 @@ NSRange maxRangeFromString(NSString * string, NSRange range) {
 {
     [self.tempAttributedString addAttribute:name
                                       value:value
-                                      range:maxRangeFromString(self.text, range)];
+                                      range:maxRangeFromString(self.tempAttributedString.string, range)];
     
     [self setNeedsDisplay];
 }
