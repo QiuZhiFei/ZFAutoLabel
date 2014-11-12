@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F326B4DE-4350-4D55-91F6-67925C796969</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DrawTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>06E9AFD10898801D928193A206DE8082ECC765C3</key>
+		<string>https://github.com/QiuZhiFei/ZFAutoLabel.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DrawTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>06E9AFD10898801D928193A206DE8082ECC765C3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/QiuZhiFei/ZFAutoLabel.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>06E9AFD10898801D928193A206DE8082ECC765C3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>06E9AFD10898801D928193A206DE8082ECC765C3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZFAutoLabel</string>
+		</dict>
+	</array>
+</dict>
+</plist>
